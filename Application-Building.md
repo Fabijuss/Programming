@@ -44,6 +44,7 @@ Application development can be undertaken in a variety of ways, using different 
 The phases of development often vary in different models and applications, varying from 4 to 6 phases. The following are the 5 phases of development commonly used:
 
 ### Requirements Phase   
+In this phase, the user requirements of the application are established by the client, 
 ### Design Phase   
 ### Implementation Phase   
 ### Testing Phase   
