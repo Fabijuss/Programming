@@ -23,9 +23,17 @@ The development process of an application will be split up and looked at in thei
 + Maintenance   
 
 ## Algorithms
+
 ### Definition
+An algorithm in general terms is a set of rules/instructions used to solve a problem. They can be used to perform from simple to complex tasks. They are often implemented in the form of functions in programming, they act as small programs which can be used by the main program to perform specific tasks.
+
 ### Uses
+Algorithms are useful in application development as they allow the process to be broken down into smaller parts, so they can be completed in independent chunks. This proves to be especially useful because application development often results in very complex problems which require a lot of code to solve. Additionally, this gives the application a level of modularity during the development process, as parts of code can be added and removed when needed.
+
+Once the initial problem is discovered, the solution to the problem is laid out most commonly in two forms; flowchart and pseudocode. This allows the problem to be visualised easier and gives an idea of how the algorithm can be used in the final code. Once a design is determined, the algorithm can then be implemented using a chosen programming language. The process of using an algorithm to determine the design and implementation utilises the second and third phases of development.
+
 ## Development Models
+Application development can be undertaken in a variety of ways, using different methodologies in order to complete the project. As a result, there are a number of different development models commonly used in application development. Each development model uses a different ideology for the development of the application, the main categories being iterative and sequential. However, regardless of the model used, the phases are roughly the same - names or order of the phases may differ. 
 
 ## Development Phases
 
