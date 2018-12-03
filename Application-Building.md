@@ -4,15 +4,15 @@
 [I. Contents](#contents)   
 [II. Introduction](#introduction)   
 [III. Algorithms](#algorithms)   
-&nbsp;[III.1 Definition](#definition)   
-&nbsp;[III.2 Uses](#uses)   
+&nbsp;&nbsp;[III.1 Definition](#definition)   
+&nbsp;&nbsp;[III.2 Uses](#uses)   
 [IV. Development Models](#development-models)   
 [V. Development Phases](#development-phases)   
-[V.1 Requirements Phase](#requirements-phase)   
-[V.2 Design Phase](#design-phase)   
-[V.3 Implementation Phase](#implementation-phase)   
-[V.4 Testing Phase](#testing-phase)   
-[V.5 Maintenance Phase](#maintenance-phase)   
+&nbsp;&nbsp;[V.1 Requirements Phase](#requirements-phase)   
+&nbsp;&nbsp;[V.2 Design Phase](#design-phase)   
+&nbsp;&nbsp;[V.3 Implementation Phase](#implementation-phase)   
+&nbsp;&nbsp;[V.4 Testing Phase](#testing-phase)   
+&nbsp;&nbsp;[V.5 Maintenance Phase](#maintenance-phase)   
 [VI. References/Bibliography](#references)   
 
 
@@ -43,11 +43,11 @@ Application development can be undertaken in a variety of ways, using different 
 ## Development Phases
 The phases of development often vary in different models and applications, varying from 4 to 6 phases. The following are the 5 phases of development commonly used:
 
-Requirements Phase   
-Design Phase   
-Implementation Phase   
-Testing Phase   
-Maintenance Phase   
+### Requirements Phase   
+### Design Phase   
+### Implementation Phase   
+### Testing Phase   
+### Maintenance Phase   
 
 
 ## Conclusion
