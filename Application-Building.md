@@ -44,10 +44,16 @@ Application development can be undertaken in a variety of ways, using different 
 The phases of development often vary in different models and applications, varying from 4 to 6 phases. The following are the 5 phases of development commonly used:
 
 ### Requirements Phase   
-In this phase, the user requirements of the application are established by the client, 
+In this phase, the user requirements of the application are established by the client. They are discussed and analysed by the team and upper management in order to determine the appropriate steps to take for the project. This phase is very important as in some development models, you cannot go back to modify the requirements. Also, understanding the client's requirements thoroughly will reduce mistakes and allow for a better final product.
+
 ### Design Phase   
+Within the design phase, the requirements are further analysed and the steps of how to meet the requirements are outlined. This will cover aspects such as the way the system will be implemented, the user interface, and what the system architecture will be like. It is important to create a good design, as once you start working on the implementation and development you cannot go back to the design phase - not without wasting a lot of time.
+
 ### Implementation Phase   
+This is the phase in which the application is actually developed into the final product. This phase materialises the design into an application that meets the user requirements laid out by the client. This is done by following the design architecture created in the previous phase and using a programming language to meet the demands, the result should be a working application.
+
 ### Testing Phase   
+During this phase, the application created in the previous phase is thoroughly tested to ensure that not only is it robust, but that it works as intended. 
 ### Maintenance Phase   
 
 
