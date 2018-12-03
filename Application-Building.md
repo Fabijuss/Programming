@@ -59,5 +59,10 @@ During this phase, the application created in the previous phase is thoroughly t
 Most software development doesn't end once the product is released, the clients usually require additional development/support such as fixing any bugs missed during the testing phase, future compatibility updates, and potentially new features.
 
 ## Conclusion
-To conclude, it can be seen how useful and important algorithms are in programming, they help define computing problems in a way that allows for easy design and implementation of a solution to the client's requirements.
+To conclude, it can be seen how useful and important algorithms are in programming, they help define computing problems in a way that allows for easy design and implementation of a solution to the client's requirements. This is how most modern software applications are built, by utilising the development phases throughout the development process from start to finish, which allows for more streamlined application development.
+
+By using a structured development model to create an application, the software developers are able to break the project down into smaller individual parts, which can be worked on independently from each other and by other people. This type of process is proven to be efficient as it has been used to develop most software to date.
+
+Overall, it is clear that both algorithms and structured development models are beneficial to software developers, and should be used in the development of applications in order to have a more efficient process and a better application.
+
 ## References
