@@ -18,7 +18,7 @@
 ## Introduction
 This short-form report will cover the process of debugging an application, and the debugging facilities available in Integrated Development Environments. Debugging will be defined and the process of debugging will be explored in this report.
 
-The debugging facilities found in Integrated Development Environements which will be covered in this report are the following:
+The debugging facilities found in Integrated Development Environments which will be covered in this report are the following:
 + Breakpoints
 + Output Console
 + Diagnostics
@@ -26,13 +26,23 @@ The debugging facilities found in Integrated Development Environements which wil
 + Call stack viewing
 
 ## Debugging
+
 ### What is debugging?
+Debugging is the process of identifying and solving defects or issues within an application so that it works as intended. It is mostly used within the development and testing phases of application development.
 ### Debugging process
+
 ## Debugging Facilities
+
 ### Breakpoints
+
 ### Output Console
+
 ### Diagnostics
+
 ### Variable changing
+
 ### Call stack viewing
+
 ## Conclusion
+
 ## References
