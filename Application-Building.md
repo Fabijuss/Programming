@@ -1,13 +1,14 @@
 # Application Building   
 #### Outlining the Process of Building an Application.
 ## Contents
-#### [I. Contents](#contents)
-#### [II. Introduction](#introduction)
-#### [III. Algorithms](#algorithms)
-#### [IV. Development Models](#development-models)
-#### [V. Development Phases](#development-phases)
-#### [VI. Conclusion](#conclusion)
-#### [VII. References/Bibliography](#references)
+[I. Contents](#contents)   
+[II. Introduction](#introduction)   
+[III. Algorithms](#algorithms)   
+&nbsp;[III.1 Definition](#definition)   
+&nbsp;[III.2 Uses](#uses)   
+[IV. Development Models](#development-models)   
+[V. Development Phases](#development-phases)   
+[VII. References/Bibliography](#references)   
 
 
 
@@ -20,8 +21,10 @@ The development process of an application will be split up and looked at in thei
 + Implementation   
 + Testing   
 + Maintenance   
-## Algorithms
 
+## Algorithms
+### Definition
+### Uses
 ## Development Models
 
 ## Development Phases
