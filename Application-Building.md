@@ -53,10 +53,11 @@ Within the design phase, the requirements are further analysed and the steps of 
 This is the phase in which the application is actually developed into the final product. This phase materialises the design into an application that meets the user requirements laid out by the client. This is done by following the design architecture created in the previous phase and using a programming language to meet the demands, the result should be a working application.
 
 ### Testing Phase   
-During this phase, the application created in the previous phase is thoroughly tested to ensure that not only is it robust, but that it works as intended. 
-### Maintenance Phase   
+During this phase, the application created in the previous phase is thoroughly tested to ensure that not only is it robust, but that it works as intended. It is vital to perform testing and review of applications before releasing them to the client, and to customers. This phase allows the development team to find any bugs within the application, and fix them before the final product is released.
 
+### Maintenance Phase   
+Most software development doesn't end once the product is released, the clients usually require additional development/support such as fixing any bugs missed during the testing phase, future compatibility updates, and potentially new features.
 
 ## Conclusion
-
+To conclude, it can be seen how useful and important algorithms are in programming, they help define computing problems in a way that allows for easy design and implementation of a solution to the client's requirements.
 ## References
