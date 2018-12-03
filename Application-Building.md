@@ -8,7 +8,12 @@
 &nbsp;[III.2 Uses](#uses)   
 [IV. Development Models](#development-models)   
 [V. Development Phases](#development-phases)   
-[VII. References/Bibliography](#references)   
+[V.1 Requirements Phase](#requirements-phase)   
+[V.2 Design Phase](#design-phase)   
+[V.3 Implementation Phase](#implementation-phase)   
+[V.4 Testing Phase](#testing-phase)   
+[V.5 Maintenance Phase](#maintenance-phase)   
+[VI. References/Bibliography](#references)   
 
 
 
@@ -36,6 +41,14 @@ Once the initial problem is discovered, the solution to the problem is laid out 
 Application development can be undertaken in a variety of ways, using different methodologies in order to complete the project. As a result, there are a number of different development models commonly used in application development. Each development model uses a different ideology for the development of the application, the main categories being iterative and sequential. However, regardless of the model used, the phases are roughly the same - names or order of the phases may differ. 
 
 ## Development Phases
+The phases of development often vary in different models and applications, varying from 4 to 6 phases. The following are the 5 phases of development commonly used:
+
+Requirements Phase   
+Design Phase   
+Implementation Phase   
+Testing Phase   
+Maintenance Phase   
+
 
 ## Conclusion
 
