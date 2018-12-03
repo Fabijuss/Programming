@@ -6,6 +6,8 @@
 #### [III. Algorithms](#algorithms)
 #### [IV. Development Models](#development-models)
 #### [V. Development Phases](#development-phases)
+#### [VI. Conclusion](#conclusion)
+#### [VII. References/Bibliography](#references)
 
 
 
@@ -16,3 +18,7 @@
 ## Development Models
 
 ## Development Phases
+
+## Conclusion
+
+## References
