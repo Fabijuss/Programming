@@ -32,6 +32,7 @@ Debugging is the process of identifying and solving defects or issues within an 
 
 ### Debugging process
 
+
 ## Debugging Facilities
 
 ### Breakpoints
@@ -47,4 +48,5 @@ Debugging is the process of identifying and solving defects or issues within an 
 ## Conclusion
 
 ## References
-***Adragna, P. (2008). Software debugging techniques - CERN Document Server [online]. Available at: https://cds.cern.ch/record/1100526/files/p71.pdf [Accessed 28 Nov. 2018].***
+***Adragna, P. (2008). Software debugging techniques - CERN Document Server [online]. Available at: https://cds.cern.ch/record/1100526/files/p71.pdf [Accessed 28 Nov. 2018].***   
+***Itu.dk. (1979). Debugging Techniques. [online] Available at: http://www.itu.dk/~slauesen/Papers/DebuggingTechniques.pdf [Accessed 30 Nov. 2018].***   
