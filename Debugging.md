@@ -29,6 +29,7 @@ The debugging facilities found in Integrated Development Environments which will
 
 ### What is debugging?
 Debugging is the process of identifying and solving defects or issues within an application so that it works as intended. It is mostly used within the development and testing phases of application development.
+
 ### Debugging process
 
 ## Debugging Facilities
@@ -46,3 +47,4 @@ Debugging is the process of identifying and solving defects or issues within an 
 ## Conclusion
 
 ## References
+***Adragna, P. (2008). Software debugging techniques - CERN Document Server [online]. Available at: https://cds.cern.ch/record/1100526/files/p71.pdf [Accessed 28 Nov. 2018].***
