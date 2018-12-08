@@ -33,12 +33,12 @@ The development process of an application will be split up and looked at in thei
 An algorithm in general terms is a set of rules/instructions used to solve a problem. They can be used to perform from simple to complex tasks. They are often implemented in the form of functions in programming, they act as small programs which can be used by the main program to perform specific tasks.
 
 ### Uses
-Algorithms are useful in application development as they allow the process to be broken down into smaller parts, so they can be completed in independent chunks. This proves to be especially useful because application development often results in very complex problems which require a lot of code to solve. Additionally, this gives the application a level of modularity during the development process, as parts of code can be added and removed when needed.
+Algorithms are useful in application development as they allow the process to be broken down into smaller parts, so they can be completed in independent chunks. This proves to be especially useful because application development often results in very complex problems which require a lot of code to solve. Additionally, this gives the application a level of modularity during the development process, as parts of the code can be added and removed when needed.
 
 Once the initial problem is discovered, the solution to the problem is laid out most commonly in two forms; flowchart and pseudocode. This allows the problem to be visualised easier and gives an idea of how the algorithm can be used in the final code. Once a design is determined, the algorithm can then be implemented using a chosen programming language. The process of using an algorithm to determine the design and implementation utilises the second and third phases of development.
 
 ## Development Models
-Application development can be undertaken in a variety of ways, using different methodologies in order to complete the project. As a result, there are a number of different development models commonly used in application development. Each development model uses a different ideology for the development of the application, the main categories being iterative and sequential. However, regardless of the model used, the phases are roughly the same - names or order of the phases may differ. 
+Application development can be undertaken in a variety of ways, using different methodologies in order to complete the project. As a result, there are a number of different development models commonly used in application development. Each development model uses a different ideology for the development of the application, the main categories being iterative and sequential. However, regardless of the model used, the phases are roughly the same - names or order of the phases may differ.
 
 ## Development Phases
 The phases of development often vary in different models and applications, varying from 4 to 6 phases. The following are the 5 phases of development commonly used:
@@ -61,7 +61,7 @@ Most software development doesn't end once the product is released, the clients 
 ## Conclusion
 To conclude, it can be seen how useful and important algorithms are in programming, they help define computing problems in a way that allows for easy design and implementation of a solution to the client's requirements. This is how most modern software applications are built, by utilising the development phases throughout the development process from start to finish, which allows for more streamlined application development.
 
-By using a structured development model to create an application, the software developers are able to break the project down into smaller individual parts, which can be worked on independently from each other and by other people. This type of process is proven to be efficient as it has been used to develop most software to date.
+By using a structured development model to create an application, the software developers are able to break the project down into smaller individual parts. These can be worked on independently from each other and by other people. This type of process is proven to be effective as it has been used to develop most software to date.
 
 Overall, it is clear that both algorithms and structured development models are beneficial to software developers, and should be used in the development of applications in order to have a more efficient process and a better application.
 
