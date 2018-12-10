@@ -44,7 +44,7 @@ The debugging process normally consists of a few steps, the following are the fo
 The aforementioned four steps of the debugging process are the following:
 
 #### Identifying a bug
-The source of the problem is located within the code during this step. Depending on the size of the code and the experience of the programmer, this can prove to be one of the harder parts of debugging. This is because an inexperienced programmer may be confident with their code, believing it works – until it doesn’t. As a result, a large amount of code may have to be checked to find the problem.
+The source of the problem is located within the code during this step. Depending on the size of the code and the experience of the programmer, this can prove to be one of the harder parts of debugging. This is because an inexperienced programmer may be confident with their code, believing it works – until it doesn’t. As a result, a large amount of code may have to be checked to find the problem. If the debugger outputs a message pointing to the potential location of the problem, it must be analysed to see whether this is the source of the problem or if there may be further issues elsewhere. If the debugger does not output the location of the bug, the whole code must be checked according to the error message.
 
 #### Classifying a bug
 In this step, the previously located bug must be classified so that it can be solved accordingly. There are four different types of bugs which may occur:
