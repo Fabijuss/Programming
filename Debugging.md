@@ -15,9 +15,10 @@
 &nbsp;&nbsp;[IV.2 Output Console](#output-console)   
 &nbsp;&nbsp;[IV.3 Diagnostics](#diagnostics)   
 &nbsp;&nbsp;[IV.4 Variable changing](#variable-changing)   
-&nbsp;&nbsp;[IV.5 Call stack viewing](#call-stack-viewing)   
-[V. Conclusion](#conclusion)   
-[VI. References/Bibliography](#references)   
+&nbsp;&nbsp;[IV.5 Call stack viewing](#call-stack-viewing) 
+[V. Building a Robust Application](#building-a-robust-application)   
+[VI. Conclusion](#conclusion)   
+[VII. References/Bibliography](#references)   
 
 ## Introduction
 This short-form report will cover the process of debugging an application, and the debugging facilities available in Integrated Development Environments. Debugging will be defined and the process of debugging will be explored in this report.
