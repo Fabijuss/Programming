@@ -15,7 +15,7 @@
 &nbsp;&nbsp;[IV.2 Output Console](#output-console)   
 &nbsp;&nbsp;[IV.3 Diagnostics](#diagnostics)   
 &nbsp;&nbsp;[IV.4 Variable changing](#variable-changing)   
-&nbsp;&nbsp;[IV.5 Call stack viewing](#call-stack-viewing) 
+&nbsp;&nbsp;[IV.5 Call stack viewing](#call-stack-viewing)   
 [V. Building a Robust Application](#building-a-robust-application)   
 [VI. Conclusion](#conclusion)   
 [VII. References/Bibliography](#references)   
