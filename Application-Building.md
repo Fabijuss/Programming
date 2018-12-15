@@ -66,3 +66,5 @@ By using a structured development model to create an application, the software d
 Overall, it is clear that both algorithms and structured development models are beneficial to software developers, and should be used in the development of applications in order to have a more efficient process and a better application.
 
 ## References
+Rastogi, V. (2015). Software Development Life Cycle Models - Comparison, Consequences. [online] Pdfs.semanticscholar.org. Available at: https://pdfs.semanticscholar.org/577c/fae86ee8bd01d64783c1c6d240523bea3b03.pdf [Accessed 1 Dec. 2018].
+Li, J. (n.d.). Agile Software Development. [online] Snet.tu-berlin.de. Available at: https://www.snet.tu-berlin.de/fileadmin/fg220/courses/WS1112/snet-project/agile-software-development_li.pdf [Accessed 1 Dec. 2018].
