@@ -81,24 +81,42 @@ Several points about the debugging process are worth noting:
 
 
 ## Debugging Facilities
+Integrated Development Environments (IDEs) often come with a number of different debugging facilities in order to aid with programming. Most IDEs have the same few facilities which give most of the basic and needed tools for debugging. However, some IDEs come with different sets of tools to aid with particular problems or programming languages. 
+The following are some of the main debugging facilities available in IDEs;
 
 ### Breakpoints
+This debugging tool allows the code to have set points in which the application stops. The main usage of this tool is to allow the programmer to inspect the values that certain variables have at certain points in the application, to ensure that they are as intended. This is important to ensure that issues do not arise in the future, as the application may work with incorrect values but the outcome could produce errors or unexpected results.
 
 ### Output Console
+This tool is used to output certain information into a console. The console usually reports any errors which are picked up while the application is running. It is possible to attach the console to certain parts of the code, allowing for uses such as outputting the variables into the console so that they can be inspected. The console can also be a useful tool when checking if everything works as intended. For example, it can be used to check if a script file has been loaded correctly, by seeing if any errors occurred in the console while loading the script.  
 
 ### Diagnostics
+This is a tool used to assist in troubleshooting issues such as memory leaks, memory fragmentation, crashes, slow performance and hangs. This tool analyses the code of the application by using built-in rules from various applications and Microsoft technologies. Once it analyses, any detected problems are outlined so that they may be fixed. The diagnostics tool can be useful when there are various performance issues with the application, but the source of the problem is not clear. It can also be useful when there is a lot of code or when the code is complex, which may cause the problem to not be apparent. 
 
 ### Variable changing
+This tool is used to change variable in the code during runtime. This can be done by using the aforementioned breakpoints in order to stop code in certain parts, and then changing the variables in order to test different outcomes. This can be useful to test what kind of values can cause errors in the application, so that the code does not accept them. It can also be used to test input variables quickly, without having to run the code every time to see each input’s outcome.
 
 ### Call stack viewing
 
+This tool is used to see what functions are called at certain points in the program. As with variable changing, this tool utilises breakpoints in order to see what functions have been called at certain points in the program. This tool can be useful when checking if functions have been called correctly and in the right order. Furthermore, it can be used to check the values which are currently being used in the functions. This can be very important as a function relying on certain values may break the entire code if the values are incorrect. 
 ## Building a Robust Application
+While debugging is primarily used in order to solve problems to ensure an application works as intended, it does come with the added benefit of improving security by patching holes in the application. Furthermore, solving issues with the application can prevent problems such as crashing or unexpected errors, thus increasing the overall robustness of the application.
 
 ### Robustness
+The primary usage of debugging is to iron out issues so that an application works properly, robustness directly ties in with this as the more issues are solved, the less likely further issues are to arise. For example, if the application has issues with certain inputs from the user, if the allowed inputs are limited to only ones that are acceptable for the application, then the chances of an issue caused by inputs is greatly reduced.
+
+The process of debugging can reveal many issues within the code of the application, this allows the programmer to find the most vulnerable spots and reinforce them by using different logic, limiting certain factors and rearranging the code in order to prevent issues before they appear. Furthermore, it allows the application to feature certain fail-safes in the case of an unexpected error, such as setting the code back to a certain point 
 
 ### Security
+The security and the robustness of an application are directly correlated, as an application which cannot perform unpredictably will have few vulnerabilities which can be exploited. There are many applications which use sensitive data, which would cause severe damage if they were leaked. Thus, debugging is used to locate and remove any bugs that may be causing vulnerabilities in the code, to ensure that they cannot be exploited.
+
+During the debugging process, certain vulnerabilities will arise, these include inputs, encryption of data, certain values in variables and various other vulnerabilities. It is vital that they are addressed during this phase as leaving them in the code is a sure-fire way of compromising the security of the application. Fully understanding the vulnerabilities in the code allow for countermeasures to be put into place, such as deleting data if the security is compromised, or shutting the system off if a irregularity is detected.  
 
 ## Conclusion
+To conclude, it can be seen that debugging is a vital step in the development process of an application, as without the application is likely to suffer in terms of security and reliability. Being able to identify, understand and repair a bug is essential in order to first troubleshoot the issue, as well as being able to prevent it from further arising in the future. 
+
+Furthermore, the debugging process highlights vulnerabilities in the structure and logic of the code, patching these vulnerabilities increases both the robustness and security of an application, which is critical in applications that handle sensitive data, and in any applications that require 100% up-time. 
+
 
 ## References
 ***Adragna, P. (2008). Software debugging techniques - CERN Document Server [online]. Available at: https://cds.cern.ch/record/1100526/files/p71.pdf [Accessed 28 Nov. 2018].***   
