@@ -18,10 +18,10 @@
 [VI. References/Bibliography](#references)   
 
 ## Introduction
-This report will cover the use of an IDE in the development process of a program. The program in question is the Higher or Lower game. This program was developed using the repl.it online IDE. The different aspects of the IDE and their uses in the development will be outlined.  
+This report will cover the use of an IDE in the development process of a program. The program in question is the Higher or Lower game. This program was developed using the ![repl.it](https://repl.it/) online IDE. The different aspects of the IDE and their uses in the development will be outlined.  
 
 ## Integrated Development Environment
-The IDE used was an online IDE named repl.it. This is a light IDE used for quick development and deployment of programs, and includes some of the main features of a full-sized IDE. 
+The IDE used was an online IDE named ![repl.it](https://repl.it/). This is a light IDE used for quick development and deployment of programs, and includes some of the main features of a full-sized IDE. 
 
 ![IDE Homepage](https://i.imgur.com/M68cSY2.png)
 
@@ -29,6 +29,7 @@ The above screenshot is the home page of the online IDE. It highlights how quick
 
 ## Features
 This IDE has a number of features suitable for the development of a program. Some of the features included are the following:
+
 ### Programming Languages
 This IDE is compatible with almost every programming available, it loads the syntax and libraries for every different language automatically. Files that are created in the specified language use the correct extensions, allowing the files to be exported and used directly from the IDE to a computer.  Some of the main and most popular languages include: Python, Ruby, Nodejs, HTML, CSS, JS, C# and Java. 
 
