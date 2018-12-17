@@ -14,6 +14,136 @@
 
 ### Code 
 The following is the code that will be evaluated in this report:
+
+     // Stores the current mouse position  
+		function MousePos (event) {
+			var bounds = canvas.getBoundingClientRect();
+		
+			mouseX = event.clientX - bounds.left
+			mouseY = event.clientY - bounds.top
+			
+		}
+		
+		// Checks players position and sets inside canvas bounds		
+		function CheckBounds ()
+		{
+			if (playerPosX < 0) {
+				playerPosX = 0
+			}
+			
+			if (playerPosY < 0) {
+				playerPosY = 0
+			}
+			
+			if (playerPosX > canvas.width) {
+				playerPosX = canvas.width
+			}
+			
+			if (playerPosY > canvas.height) {
+				playerPosY = canvas.height
+			}
+		}
+	
+		
+		//calculates distance from enemy to player 
+		function calcAngle ()
+		{
+			var differenceX = playerPosX - enemyX
+			var differenceY = playerPosY - enemyY
+			
+			var angle = Math.atan2(differenceY, differenceX)
+			
+			enemyX += speed * Math.cos(angle)
+			enemyY += speed * Math.sin(angle)
+		}
+	
+		//refreshes canvas to update player and enemy position
+		//invulnerability time if player recently touched enemy
+		function GameLoop () {
+			playerPosX = mouseX
+			playerPosY = mouseY
+	
+			CheckBounds()
+			calcAngle()
+			
+			
+		
+			if (iframeCounter == 0) {
+				if (playerPosX < enemyX + enemySize && playerPosX + playerSize > enemyX && playerPosY < enemyY + enemySize && playerPosY + playerSize > enemyY) {
+					iframeCounter = 60
+					lives -= 1
+					document.getElementById("counter").innerHTML -= 1;
+				}
+			} else {
+				iframeCounter -= 1
+			}
+			
+			
+			// Reset everything when lives reaches 0
+			if (lives <= 0) {
+				playerSize = 50
+				enemySize = 50
+				iframeCounter = 0
+				playerPosX = 0
+				playerPosY = 0
+				enemyX = canvas.width
+				enemyY = canvas.height
+				speed = 10
+				lives = 3
+				document.getElementById("counter").innerHTML = "3";
+			}
+			
+			//colour of player & enemy
+		    context.fillStyle = '#f7f7f7';
+            context.fillRect(0, 0, canvas.width, canvas.height);
+			context.shadowColor = 'black';
+			context.shadowBlur = 5;
+			
+			
+			context.fillStyle = "#686868";
+			context.fillRect(enemyX-(enemySize/2), enemyY-(enemySize/2), enemySize, enemySize);
+			
+			// iframe colour
+			context.fillStyle = "#a5a5a5";
+			if (iframeCounter > 0) {
+				context.fillStyle = "#e0e0e0";
+			} else {
+				context.fillStyle = "#a5a5a5";
+			}
+		
+			context.fillRect(playerPosX-(playerSize/2), playerPosY-(playerSize/2), playerSize, playerSize); 
+			
+			window.requestAnimationFrame(GameLoop)
+		}
+	  
+		// Program starts here
+		var canvas = document.getElementById('game-canvas'); 
+		var context = canvas.getContext('2d');
+		var speed = 10	
+		
+		var lives = 3
+			
+		var playerSize = 50
+		var enemySize = 50
+		
+		var iframeCounter = 0
+		
+		canvas.width = 800
+		canvas.height = 600
+		
+		var enemyX = canvas.width
+		var enemyY = canvas.height
+		var playerPosX = 0
+		var playerPosY = 0
+		
+		var mouseX = -100
+		var mouseY = -100
+		
+		// Lives counter
+		document.getElementById("counter").innerHTML = "3";
+		
+		window.addEventListener ("mousemove", MousePos)
+		window.requestAnimationFrame(GameLoop)
  
 ## Paradigms
 As covered in a previous report, the three different paradigms have different approaches to the programming of an application. The different approaches that each paradigm has are the following:
